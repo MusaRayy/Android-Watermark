@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Watermark Demo</string>
+    <string name="watermark_demo">Watermark Demo</string>
+    <string name="watermark_type">Watermark Type</string>
+    <string name="text">Text</string>
+    <string name="bitmap">Bitmap</string>
+    <string name="enter_watermark_text">Enter watermark text</string>
+    <string name="text_size">Text Size:</string>
+    <string name="opacity">Opacity:</string>
+    <string name="spacing">Spacing:</string>
+    <string name="angle">Angle:</string>
+    <string name="apply_watermark">Apply Watermark</string>
+</resources>
