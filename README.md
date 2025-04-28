@@ -37,12 +37,14 @@ You can use the library in one of the following ways:
 #### Option 2: Use Maven Repository
 Add the following to your project's build.gradle file:
 ```gradle
+// project level gradle
 repositories {
     mavenCentral()
     // or
     maven { url 'https://jitpack.io' }
 }
 
+// module level gradle
 dependencies {
     implementation 'com.musarayy:watermark:1.0.0'
 }
