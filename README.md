@@ -10,11 +10,6 @@ A simple and customizable watermark library for Android applications. This libra
 - Convenient helper methods for common use cases
 - Support for debug watermarks
 
-
-## Demo Output
-![Demo](doc/watermarkvideo-ezgif.com-video-to-gif-converter.gif)
-
-
 ## Installation
 
 ### Gradle
@@ -142,6 +137,11 @@ val watermarkView = WatermarkView(context).apply {
 // Add it to your layout
 myLayout.addView(watermarkView)
 ```
+
+
+## Demo Output
+![Demo](doc/watermarkvideo-ezgif.com-video-to-gif-converter.gif)
+
 
 ## License
 
