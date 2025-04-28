@@ -10,12 +10,37 @@ A simple and customizable watermark library for Android applications. This libra
 - Convenient helper methods for common use cases
 - Support for debug watermarks
 
+
+## Demo Output
+![Demo](doc/watermarkvideo-ezgif.com-video-to-gif-converter.gif)
+
+
 ## Installation
 
 ### Gradle
+You can use the library in one of the following ways:
 
+#### Option 1: Download the AAR File
+1. Download the AAR file from the [android-watermark.aar](doc/android-watermark.aar) section of this repository.
+2. Add the AAR file to your project:
+    - Place the `.aar` file in the `libs` folder of your project.
+    - Update your `build.gradle` file to include the following:
+
+      ```gradle
+      repositories {
+          flatDir {
+              dirs 'libs'
+          }
+      }
+ 
+      dependencies {
+          implementation(name: 'android-watermark', ext: 'aar')
+      }
+      ```
+
+
+#### Option 2: Use Maven Repository
 Add the following to your project's build.gradle file:
-
 ```gradle
 repositories {
     mavenCentral()
